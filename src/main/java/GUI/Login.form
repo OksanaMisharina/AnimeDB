@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUI.Login">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="20" bottom="0" right="20"/>
+    <constraints>
+      <xy x="23" y="20" width="456" height="281"/>
+    </constraints>
+    <properties>
+      <background color="-16"/>
+      <doubleBuffered value="true"/>
+      <enabled value="true"/>
+      <focusCycleRoot value="false"/>
+      <focusTraversalPolicyProvider value="false"/>
+      <inheritsPopupMenu value="false"/>
+      <opaque value="true"/>
+      <requestFocusEnabled value="true"/>
+      <verifyInputWhenFocusTarget value="true"/>
+      <visible value="true"/>
+    </properties>
+    <clientProperties>
+      <html.disable class="java.lang.Boolean" value="false"/>
+    </clientProperties>
+    <border type="line">
+      <color color="-12769260"/>
+    </border>
+    <children>
+      <grid id="c76cc" binding="AuthorizatoinPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="320" height="60"/>
+            <preferred-size width="320" height="60"/>
+            <maximum-size width="320" height="60"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16"/>
+        </properties>
+        <border type="none">
+          <size top="0" left="0" bottom="10" right="0"/>
+          <color color="-12769260"/>
+        </border>
+        <children>
+          <component id="8a052" class="javax.swing.JLabel" binding="AuthorizationLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-8353869"/>
+              <font name="Droid Serif" size="20"/>
+              <foreground color="-12769260"/>
+              <text value="Авторизация"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="90fcc" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="320" height="100"/>
+            <preferred-size width="320" height="100"/>
+            <maximum-size width="320" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="c43e3" class="javax.swing.JTextField" binding="LoginTextField">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="250" height="30"/>
+                <preferred-size width="15" height="20"/>
+                <maximum-size width="250" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-131587"/>
+              <dropMode value="INSERT"/>
+              <font name="Droid Serif" size="14"/>
+              <foreground color="-6908266"/>
+              <text value="Логин"/>
+            </properties>
+          </component>
+          <component id="aa20" class="javax.swing.JPasswordField" binding="PasswordField">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="250" height="30"/>
+                <preferred-size width="150" height="-1"/>
+                <maximum-size width="-1" height="250"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-131587"/>
+              <font name="Droid Serif" size="14"/>
+              <foreground color="-6908266"/>
+              <text value="Пароль"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="c0f5" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="320" height="80"/>
+            <preferred-size width="320" height="80"/>
+            <maximum-size width="320" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="1c149" class="javax.swing.JButton" binding="EnterButton">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="250" height="-1"/>
+                <maximum-size width="250" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-4726535"/>
+              <font name="Droid Serif" size="14"/>
+              <foreground color="-15195062"/>
+              <text value="Вход"/>
+            </properties>
+          </component>
+          <component id="a7226" class="javax.swing.JLabel" binding="RegistrationLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-12769260"/>
+              <text value="Регистрация"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="92c13" class="javax.swing.JLabel" binding="errorLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="250" height="11"/>
+            <preferred-size width="250" height="17"/>
+            <maximum-size width="250" height="11"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Droid Serif" size="12"/>
+          <foreground color="-35497"/>
+          <text value=""/>
+          <verticalAlignment value="0"/>
+          <verticalTextPosition value="0"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

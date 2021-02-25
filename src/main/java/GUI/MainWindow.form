@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUI.MainWindow">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="874" height="554"/>
+    </constraints>
+    <properties>
+      <background color="-16"/>
+      <enabled value="false"/>
+      <font size="20"/>
+      <foreground color="-12769260"/>
+    </properties>
+    <border type="none">
+      <color color="-12769260"/>
+    </border>
+    <children>
+      <scrollpane id="71b7b">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <maximum-size width="550" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16"/>
+          <enabled value="false"/>
+          <horizontalScrollBarPolicy value="31"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="9e0f" binding="PANEL" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints/>
+            <properties>
+              <background color="-16"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="90690" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false">
+                    <maximum-size width="-1" height="100"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-16"/>
+                  <enabled value="false"/>
+                  <font name="Droid Serif" size="16"/>
+                </properties>
+                <border type="none" title=""/>
+                <children>
+                  <grid id="f08c6" binding="epsPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <minimum-size width="500" height="80"/>
+                        <preferred-size width="-1" height="80"/>
+                        <maximum-size width="550" height="80"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-28528"/>
+                      <foreground color="-28528"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="64fe7" class="javax.swing.JLabel" binding="epsLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-3407872"/>
+                          <font name="Droid Serif" size="24"/>
+                          <foreground color="-1"/>
+                          <horizontalAlignment value="0"/>
+                          <horizontalTextPosition value="0"/>
+                          <text value=""/>
+                          <verticalAlignment value="1"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="f2cb2" binding="animePanel" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false">
+                    <minimum-size width="-1" height="300"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-16"/>
+                </properties>
+                <border type="line">
+                  <color color="-4473925"/>
+                </border>
+                <children>
+                  <grid id="6ea59" binding="deletePanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false">
+                        <minimum-size width="30" height="-1"/>
+                        <maximum-size width="30" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-16"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <grid id="ca0ae" binding="animeListPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="400" height="-1"/>
+                        <maximum-size width="450" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-16"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="d2a6c" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false">
+                    <maximum-size width="500" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-16"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="1be49" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="2" indent="0" use-parent-layout="false">
+                        <maximum-size width="-1" height="30"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font name="Droid Serif" size="16"/>
+                      <foreground color="-12769260"/>
+                      <text value="Мои аниме"/>
+                      <verticalAlignment value="1"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </scrollpane>
+      <grid id="f0b5a" binding="titlePanel" layout-manager="GridLayoutManager" row-count="1" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="10" bottom="0" right="10"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="45"/>
+            <preferred-size width="-1" height="44"/>
+            <maximum-size width="550" height="45"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-265522"/>
+        </properties>
+        <border type="line">
+          <color color="-12769260"/>
+        </border>
+        <children>
+          <component id="8018b" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Baskerville Old Face" size="24"/>
+              <foreground color="-12769260"/>
+              <text value="AnimeTV"/>
+            </properties>
+          </component>
+          <component id="fdd8e" class="javax.swing.JButton" binding="searchButton">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                <maximum-size width="130" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-4726535"/>
+              <font name="Droid Serif" size="12"/>
+              <foreground color="-15195064"/>
+              <text value="Поиск"/>
+            </properties>
+          </component>
+          <component id="b4b02" class="javax.swing.JTextField" binding="searchTextField">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="250" height="30"/>
+                <preferred-size width="15" height="20"/>
+                <maximum-size width="250" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-131587"/>
+              <dropMode value="INSERT"/>
+              <font name="Droid Serif" size="14"/>
+              <foreground color="-6908266"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="24c68" class="javax.swing.JLabel" binding="userNameLabel">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="40"/>
+                <preferred-size width="-1" height="40"/>
+                <maximum-size width="-1" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-16"/>
+              <font name="Droid Serif" size="18"/>
+              <foreground color="-12769260"/>
+              <horizontalAlignment value="2"/>
+              <horizontalTextPosition value="2"/>
+              <text value=""/>
+              <verticalAlignment value="0"/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
