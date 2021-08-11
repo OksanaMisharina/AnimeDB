@@ -5,8 +5,8 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class Eps {
-    String sql;
-    Statement statement;
+    private String sql;
+    private Statement statement;
 
     public Eps(Statement statement) {
         sql = "SELECT \"EPS_NUM\" FROM \"ANIME\" WHERE \"ANIME_ID\" IN(SELECT \"ANIME_ID\" " +
