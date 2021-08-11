@@ -4,8 +4,8 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class AddAnime{
-    String sql;
-    Statement statement;
+    private String sql;
+    private Statement statement;
 
     public AddAnime(Statement statement) {
 
