@@ -5,8 +5,8 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class UserExist{
-    String sql;
-    Statement statement;
+    private String sql;
+    private Statement statement;
 
     public UserExist(Statement statement) {
         this.sql = new String("SELECT * FROM public.\"USERS\"");
