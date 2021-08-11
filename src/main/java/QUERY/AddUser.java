@@ -5,7 +5,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class AddUser{
-    String sql;
+    private String sql;
 
     public AddUser(String name, String password) {
 
