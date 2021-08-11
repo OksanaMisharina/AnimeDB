@@ -5,8 +5,8 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class MyAnimeList {
-    String sql;
-    Statement statement;
+    private String sql;
+    private Statement statement;
 
     public MyAnimeList(Statement statement) {
         sql = new String("SELECT \"TITLE\" FROM \"ANIME\" WHERE \"ANIME_ID\" IN(SELECT " +
