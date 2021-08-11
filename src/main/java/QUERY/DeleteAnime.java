@@ -7,8 +7,8 @@ import java.sql.Statement;
 
 public class DeleteAnime{
 
-    String sql;
-    Statement statement;
+    private String sql;
+    private Statement statement;
 
     public DeleteAnime(Statement statement) {
 
