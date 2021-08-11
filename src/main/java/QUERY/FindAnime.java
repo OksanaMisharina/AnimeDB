@@ -6,8 +6,8 @@ import java.sql.Statement;
 
 public class FindAnime {
 
-    String sql;
-    Statement statement;
+    private String sql;
+    private Statement statement;
 
     public FindAnime(Statement statement) {
         sql = new String("");
